@@ -83,20 +83,14 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.6rem;
-  height: 2.6rem;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), #6f1212);
-  color: white;
-  font-family: var(--font-heading), sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  overflow: hidden;
+  width: 2.9rem;
+  height: 3.2rem;
+  color: var(--accent);
 }
 
 .lobster-mark {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 100%;
+  height: 100%;
 }
 
 .brand-copy {
