@@ -1,10 +1,6 @@
 import Link from "next/link";
 import {
-  ClawCrestMark,
-  LobsterShieldMark,
-  LobsterShieldMinimalMark,
   LobsterShieldRuggedMark,
-  MonogramClawMark,
 } from "@/components/logo-marks";
 import { faqs, offers, primaryAudience, useCases } from "@/components/site-data";
 
@@ -75,52 +71,12 @@ export default function Home() {
           <div className="logo-grid">
             <article className="logo-card">
               <div className="logo-preview">
-                <LobsterShieldMinimalMark className="logo-preview-mark" />
-              </div>
-              <h3>Minimal-Premium</h3>
-              <p className="detail-copy">
-                Cleaner, lighter, and more upscale. Best if you want FreightClaw to feel
-                more premium and less aggressive.
-              </p>
-            </article>
-            <article className="logo-card">
-              <div className="logo-preview">
                 <LobsterShieldRuggedMark className="logo-preview-mark" />
               </div>
               <h3>Primary mark: Rugged-Heavy-Duty</h3>
               <p className="detail-copy">
                 This is now the active FreightClaw mark. It has the strongest industrial
                 feel and the clearest connection to a harder-working freight brand.
-              </p>
-            </article>
-            <article className="logo-card">
-              <div className="logo-preview">
-                <LobsterShieldMark className="logo-preview-mark" />
-              </div>
-              <h3>Alternate: Current Shield</h3>
-              <p className="detail-copy">
-                Keep this as a fallback if you later want a slightly cleaner version of
-                the shield without losing the lobster identity.
-              </p>
-            </article>
-            <article className="logo-card">
-              <div className="logo-preview">
-                <ClawCrestMark className="logo-preview-mark" />
-              </div>
-              <h3>Alternate: Claw Crest</h3>
-              <p className="detail-copy">
-                Keep this as a secondary exploration if you want a more emblematic,
-                high-ticket mark later.
-              </p>
-            </article>
-            <article className="logo-card">
-              <div className="logo-preview">
-                <MonogramClawMark className="logo-preview-mark" />
-              </div>
-              <h3>Alternate: Monogram Claw</h3>
-              <p className="detail-copy">
-                Keep this only if you later want a more software-like or app-specific
-                icon family.
               </p>
             </article>
           </div>
