@@ -195,15 +195,65 @@ export function LobsterShieldRuggedMark({ className }: LogoProps) {
       <path
         d="M25.7 20.4C25.7 16.6 28.5 13.8 32 13.8C35.5 13.8 38.3 16.6 38.3 20.4V28.3C38.3 32.1 35.5 34.9 32 34.9C28.5 34.9 25.7 32.1 25.7 28.3V20.4Z"
         fill="white"
+        stroke="#111111"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
       />
       <path
         d="M22 37.4C22 34 26.4 31.4 32 31.4C37.6 31.4 42 34 42 37.4C42 42.5 37.9 46.6 32 46.6C26.1 46.6 22 42.5 22 37.4Z"
         fill="white"
+        stroke="#111111"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
       />
-      <path d="M27.1 46V55.2" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
-      <path d="M36.9 46V55.2" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
-      <path d="M21.8 46.1L17 53.8" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
-      <path d="M42.2 46.1L47 53.8" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
+      <path
+        d="M27.1 46V55.2"
+        stroke="white"
+        strokeWidth="3.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M36.9 46V55.2"
+        stroke="white"
+        strokeWidth="3.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M21.8 46.1L17 53.8"
+        stroke="white"
+        strokeWidth="3.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M42.2 46.1L47 53.8"
+        stroke="white"
+        strokeWidth="3.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M27.1 46V55.2"
+        stroke="#111111"
+        strokeWidth="1.1"
+        strokeLinecap="round"
+      />
+      <path
+        d="M36.9 46V55.2"
+        stroke="#111111"
+        strokeWidth="1.1"
+        strokeLinecap="round"
+      />
+      <path
+        d="M21.8 46.1L17 53.8"
+        stroke="#111111"
+        strokeWidth="1.1"
+        strokeLinecap="round"
+      />
+      <path
+        d="M42.2 46.1L47 53.8"
+        stroke="#111111"
+        strokeWidth="1.1"
+        strokeLinecap="round"
+      />
       <path d="M28.7 22.8H35.3" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
       <path d="M28.5 39.3H35.5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
     </svg>
