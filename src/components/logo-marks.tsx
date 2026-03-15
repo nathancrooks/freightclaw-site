@@ -48,31 +48,73 @@ export function LobsterShieldMark({ className }: LogoProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect x="8" y="8" width="48" height="48" rx="16" fill="currentColor" />
       <path
-        d="M21 19C16.5 16.4 15.1 12.9 15.5 10C19.9 10.3 23.5 12.3 26.5 16.5"
-        stroke="white"
-        strokeWidth="3"
-        strokeLinecap="round"
+        d="M32 6L52 14V31C52 42.6 44 52.2 32 58C20 52.2 12 42.6 12 31V14L32 6Z"
+        fill="currentColor"
       />
       <path
-        d="M43 19C47.5 16.4 48.9 12.9 48.5 10C44.1 10.3 40.5 12.3 37.5 16.5"
-        stroke="white"
-        strokeWidth="3"
-        strokeLinecap="round"
+        d="M32 10L48 16.4V30.4C48 39.8 41.9 48.2 32 53.2C22.1 48.2 16 39.8 16 30.4V16.4L32 10Z"
+        fill="black"
+        fillOpacity="0.16"
       />
       <path
-        d="M26 20.5C26 17.2 28.7 14.5 32 14.5C35.3 14.5 38 17.2 38 20.5V28C38 31.3 35.3 34 32 34C28.7 34 26 31.3 26 28V20.5Z"
+        d="M22.5 19.5C17 18.2 13.7 15.2 12.8 10.2C18.1 10.2 22.3 11.9 25.6 15.5"
+        stroke="white"
+        strokeWidth="3.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M41.5 19.5C47 18.2 50.3 15.2 51.2 10.2C45.9 10.2 41.7 11.9 38.4 15.5"
+        stroke="white"
+        strokeWidth="3.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M26.5 20.2C26.5 17 29 14.5 32 14.5C35 14.5 37.5 17 37.5 20.2V27.8C37.5 31 35 33.5 32 33.5C29 33.5 26.5 31 26.5 27.8V20.2Z"
         fill="white"
       />
       <path
-        d="M24.5 37C24.5 33.9 27.9 31.5 32 31.5C36.1 31.5 39.5 33.9 39.5 37C39.5 41.1 36.1 44.5 32 44.5C27.9 44.5 24.5 41.1 24.5 37Z"
+        d="M23 36.8C23 33.7 27 31.3 32 31.3C37 31.3 41 33.7 41 36.8C41 41.5 37.2 45.3 32 45.3C26.8 45.3 23 41.5 23 36.8Z"
         fill="white"
       />
-      <path d="M28.5 44.5V53" stroke="white" strokeWidth="3" strokeLinecap="round" />
-      <path d="M35.5 44.5V53" stroke="white" strokeWidth="3" strokeLinecap="round" />
-      <path d="M24 45.5L19.5 53" stroke="white" strokeWidth="3" strokeLinecap="round" />
-      <path d="M40 45.5L44.5 53" stroke="white" strokeWidth="3" strokeLinecap="round" />
+      <path
+        d="M27.5 44.8V54"
+        stroke="white"
+        strokeWidth="3.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M36.5 44.8V54"
+        stroke="white"
+        strokeWidth="3.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M23 45.2L18.5 52.5"
+        stroke="white"
+        strokeWidth="3.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M41 45.2L45.5 52.5"
+        stroke="white"
+        strokeWidth="3.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M29 22.3H35"
+        stroke="currentColor"
+        strokeWidth="2.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M29.5 38.5H34.5"
+        stroke="currentColor"
+        strokeWidth="2.6"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }
