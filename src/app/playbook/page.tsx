@@ -10,12 +10,12 @@ export default function PlaybookPage() {
     <PageShell
       eyebrow="Top of funnel offer"
       title="The Freight AI Implementation Playbook"
-      description="A low-ticket guide that shows freight operators where AI can remove repetitive service work first, how to evaluate workflow fit, and what to implement before overbuying software."
-      primaryCta={{ href: "/book", label: "Get Sales Setup Ready" }}
+      description="A field-tested implementation guide for freight operators who want to automate quoting, tracking, claims, follow-up, and onboarding without hiring a dev team."
+      primaryCta={{ href: "/book", label: "Get the Playbook Setup Ready" }}
       secondaryCta={{ href: "/pricing", label: "Compare Offers" }}
       aside={
         <>
-          <span className="eyebrow">$37-$47</span>
+          <span className="eyebrow">$47</span>
           <h3>Entry product with a clear next step.</h3>
           <p className="detail-copy">
             This should qualify buyers into the Community, Accelerator, or Deployment
@@ -29,7 +29,7 @@ export default function PlaybookPage() {
           <article className="detail-panel">
             <h3>What is inside</h3>
             <ul className="bullet-list">
-              <li>Freight AI workflow map for tracking, claims, docs, and exceptions</li>
+              <li>Freight AI workflow map for quoting, tracking, claims, docs, and exceptions</li>
               <li>Stack recommendations and implementation sequencing</li>
               <li>ROI worksheet and operator scorecard</li>
               <li>30-day rollout plan for the first workflow</li>

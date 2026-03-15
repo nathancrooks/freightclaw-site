@@ -12,9 +12,9 @@ export default function Home() {
               Deploy AI into your freight business <span className="accent-text">without replacing your TMS</span>
             </h1>
             <p className="hero-copy">
-              FreightClaw helps brokers, carriers, and 3PLs automate shipment updates,
-              exception handling, claims intake, document retrieval, and internal
-              knowledge workflows with practical OpenClaw implementations.
+              FreightClaw helps freight agents, brokers, 3PLs, and carriers automate
+              quoting, tracking, exceptions, claims, re-bills, onboarding, and customer
+              communication using systems built on live freight.
             </p>
             <div className="cta-row">
               <Link href="/playbook" className="button">
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
           </div>
           <aside className="hero-panel">
-            <span className="eyebrow" style={{ color: "#f7d6b8" }}>
+            <span className="eyebrow" style={{ color: "#fecaca" }}>
               What changes first
             </span>
             <h2>Turn repetitive freight communication into a documented operating system.</h2>
@@ -61,8 +61,8 @@ export default function Home() {
             </div>
             <p className="section-copy">
               FreightClaw is not another TMS. It is a practical AI layer that helps
-              customer-facing teams respond faster, standardize workflows, and scale
-              service without a rip-and-replace software project.
+              customer-facing teams quote faster, respond faster, standardize workflows,
+              and scale service without a rip-and-replace software project.
             </p>
           </div>
           <div className="feature-grid">
@@ -71,7 +71,7 @@ export default function Home() {
                 <h3>{item}</h3>
                 <p className="detail-copy">
                   Best fit if you are already handling recurring inquiries, exceptions,
-                  and process-heavy coordination work every day.
+                  quote requests, and process-heavy coordination work every day.
                 </p>
               </article>
             ))}
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <p className="section-copy">
               The first FreightClaw implementations should focus on the highest-friction
-              customer service and ops loops, not broad “AI transformation” theater.
+              customer service and ops loops, not broad AI transformation theater.
             </p>
           </div>
           <div className="feature-grid">
@@ -98,6 +98,49 @@ export default function Home() {
                 <p className="detail-copy">{item.body}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">Founder</span>
+              <h2>Built by a freight broker who got tired of running his brokerage like it was 2019.</h2>
+            </div>
+            <p className="section-copy">
+              FreightClaw was built inside a live freight operation before it was ever
+              sold as a service.
+            </p>
+          </div>
+          <div className="split-panel">
+            <article className="detail-panel">
+              <h3>Nathan Crooks</h3>
+              <p className="detail-copy">
+                I&apos;m a freight broker, not a software guy. I run Fair Trade Logistics,
+                a coffee-focused truckload and LTL transportation agency. I know what it
+                is like to compete with big-box 3PLs where speed is everything and price
+                matters.
+              </p>
+              <p className="detail-copy">
+                We needed faster quoting, faster tracking, consistent marketing, prospect
+                nurturing, and better customer onboarding to scale beyond good enough.
+              </p>
+            </article>
+            <article className="detail-panel">
+              <h3>Why FreightClaw exists</h3>
+              <p className="detail-copy">
+                One day I realized my team and I were still copy-pasting tracking
+                numbers, manually quoting and booking shipments, and answering where&apos;s
+                my shipment calls at 6pm. So I fixed it.
+              </p>
+              <p className="detail-copy">
+                I built FreightClaw inside my own agency on live freight, with real
+                customers, real carriers, and real money on the line. Every workflow and
+                integration was proven before it ever hit this page.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -138,7 +181,7 @@ export default function Home() {
         <div className="container split-panel">
           <div className="banner">
             <span className="eyebrow">Why FreightClaw</span>
-            <h2>Faster than enterprise software. More specific than a generic AI agency.</h2>
+            <h2>Built on live freight. Not a pitch deck.</h2>
             <p className="detail-copy">
               The message is straightforward: deploy AI into your freight business with a
               system that fits your current operation, customer volume, and team maturity.
@@ -146,10 +189,10 @@ export default function Home() {
           </div>
           <div className="banner">
             <span className="eyebrow">Primary CTA</span>
-            <h2>Launch with the first six pages and start selling before the app is deep.</h2>
+            <h2>If you are still running your brokerage like it is 2019, you are leaving money and time on the table.</h2>
             <p className="detail-copy">
-              FreightClaw can go live as a high-converting marketing site first, then grow
-              into a richer member and client experience on the same stack.
+              FreightClaw gives you a practical way to fix it before you buy bloated
+              enterprise software or keep adding manual labor.
             </p>
           </div>
         </div>

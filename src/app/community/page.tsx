@@ -11,7 +11,7 @@ export default function CommunityPage() {
       eyebrow="Continuity offer"
       title="FreightClaw Operators Community"
       description="A Skool-based implementation lab for operators who want examples, templates, accountability, and office hours while they put FreightClaw systems in place."
-      primaryCta={{ href: "/book", label: "Join the Waitlist Flow" }}
+      primaryCta={{ href: "/book", label: "Join the Community Waitlist" }}
       secondaryCta={{ href: "/pricing", label: "See Pricing" }}
       aside={
         <>
@@ -30,7 +30,7 @@ export default function CommunityPage() {
             <ul className="bullet-list">
               <li>Weekly office hours and implementation workshops</li>
               <li>Prompt library, SOP templates, and call recordings</li>
-              <li>Examples from brokers, carriers, and 3PL use cases</li>
+              <li>Examples from freight agent, broker, carrier, and 3PL use cases</li>
               <li>Ongoing feedback on what to build next</li>
             </ul>
           </article>

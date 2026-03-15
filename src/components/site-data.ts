@@ -1,7 +1,8 @@
 export const primaryAudience = [
-  "Freight brokers buried in status updates and customer follow-up",
-  "3PL operators juggling exceptions, claims, and document requests",
-  "Carrier teams that need faster after-hours response without adding headcount",
+  "Freight agents trying to compete on speed without adding unnecessary headcount",
+  "Freight brokers buried in quoting, status updates, and customer follow-up",
+  "3PL operators juggling exceptions, claims, onboarding, and document requests",
+  "Carrier teams that need faster after-hours response and cleaner customer communication",
 ];
 
 export const useCases = [
@@ -22,25 +23,33 @@ export const useCases = [
     body: "Surface PODs, invoices, rate confirmations, and standard process docs without inbox churn.",
   },
   {
-    title: "Rate request intake",
-    body: "Capture RFQ details cleanly so your team stops rewriting the same context by hand.",
+    title: "Quote request intake",
+    body: "Capture quote details cleanly so your team stops rewriting the same shipment context by hand.",
   },
   {
     title: "Internal knowledge",
     body: "Give your team one place to find SOPs, customer handling guidance, and process answers fast.",
+  },
+  {
+    title: "Prospect nurture",
+    body: "Keep follow-up moving for shippers and leads without depending on manual reminders and scattered notes.",
+  },
+  {
+    title: "Customer onboarding",
+    body: "Standardize what happens after the customer says yes so service quality does not depend on memory.",
   },
 ];
 
 export const offers = [
   {
     title: "FreightClaw Playbook",
-    price: "$37-$47",
+    price: "$47",
     description:
       "A top-of-funnel implementation guide that shows freight operators where AI can remove repetitive service work first.",
     bullets: [
       "Freight AI opportunity map",
       "Workflow audit worksheet",
-      "Recommended stack and tool choices",
+      "Quoting, tracking, and claims blueprint",
       "30-day implementation plan",
     ],
   },
@@ -58,7 +67,7 @@ export const offers = [
   },
   {
     title: "FreightClaw Accelerator",
-    price: "$9,800 or $1,960/mo",
+    price: "Book a Call",
     description:
       "A five-month done-with-you program to build and launch your first freight AI workflows with your team.",
     bullets: [
@@ -66,12 +75,13 @@ export const offers = [
       "Weekly working sessions",
       "Workflow documentation",
       "Training and KPI review",
+      "Quoting, tracking, claims, and onboarding systems",
     ],
     featured: true,
   },
   {
     title: "FreightClaw Deployment",
-    price: "$25,000",
+    price: "Book a Call",
     description:
       "A three-month done-for-you deployment with documentation, setup guides, and lifetime community access.",
     bullets: [
@@ -79,6 +89,7 @@ export const offers = [
       "Knowledge base structuring",
       "Admin handoff and training",
       "Lifetime Skool access",
+      "High-touch deployment planning and rollout support",
     ],
   },
 ];
@@ -92,7 +103,7 @@ export const faqs = [
   {
     question: "Who is the best fit first?",
     answer:
-      "Freight brokers, 3PLs, and customer-facing carrier teams with recurring shipment inquiries and documented service workflows are the best starting point.",
+      "Freight agents first, then brokers, 3PLs, and customer-facing carrier teams with recurring shipment inquiries and documented service workflows are the best starting point.",
   },
   {
     question: "Is this just training, or will something actually get built?",

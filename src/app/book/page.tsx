@@ -20,7 +20,7 @@ export default function BookPage() {
             </p>
             <div className="cta-row">
               <a href="https://calendly.com/" className="button">
-                Add Your Booking Link
+                Placeholder Booking Link
               </a>
               <Link href="/pricing" className="button button-secondary">
                 Review Pricing First

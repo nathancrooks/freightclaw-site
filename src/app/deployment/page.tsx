@@ -11,15 +11,15 @@ export default function DeploymentPage() {
       eyebrow="Done for you"
       title="We help design and deploy your freight AI system."
       description="FreightClaw Deployment is a higher-touch three-month engagement for companies that want workflow design, setup guidance, documentation, and handoff support without building the operating system alone."
-      primaryCta={{ href: "/book", label: "Book a Deployment Call" }}
+      primaryCta={{ href: "/book", label: "Book a Call" }}
       secondaryCta={{ href: "/pricing", label: "Compare Services" }}
       aside={
         <>
-          <span className="eyebrow">$25,000</span>
+          <span className="eyebrow">Book a Call</span>
           <h3>Premium implementation path.</h3>
           <p className="detail-copy">
-            Position this as a deployment and handoff service, not “we click buttons for
-            you for a few weeks.”
+            Position this as a deployment and handoff service with real workflow design,
+            documentation, setup guidance, and operational rollout support.
           </p>
         </>
       }
@@ -33,6 +33,24 @@ export default function DeploymentPage() {
               <li>Setup guidance and integration planning</li>
               <li>Knowledge base structuring and SOP documentation</li>
               <li>Admin training and lifetime community access</li>
+            </ul>
+          </article>
+          <article className="detail-panel">
+            <h3>Feature stack</h3>
+            <ul className="bullet-list">
+              <li>High-touch workflow mapping and deployment planning</li>
+              <li>Implementation guidance for quoting, tracking, claims, and onboarding</li>
+              <li>Documentation package and setup guides for long-term use</li>
+              <li>Admin handoff so your team is not dependent on outside help forever</li>
+            </ul>
+          </article>
+          <article className="detail-panel">
+            <h3>Operator benefits</h3>
+            <ul className="bullet-list">
+              <li>Faster deployment without building everything from scratch internally</li>
+              <li>More consistent customer experience across the freight lifecycle</li>
+              <li>Reduced manual workload in high-volume service workflows</li>
+              <li>A documented system ready for team adoption and scale</li>
             </ul>
           </article>
           <article className="detail-panel">
