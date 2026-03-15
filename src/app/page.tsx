@@ -1,4 +1,9 @@
 import Link from "next/link";
+import {
+  ClawCrestMark,
+  LobsterShieldMark,
+  MonogramClawMark,
+} from "@/components/logo-marks";
 import { faqs, offers, primaryAudience, useCases } from "@/components/site-data";
 
 export default function Home() {
@@ -49,6 +54,52 @@ export default function Home() {
               </div>
             </div>
           </aside>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">Logo directions</span>
+              <h2>Three cleaner marks for FreightClaw.</h2>
+            </div>
+            <p className="section-copy">
+              The header now uses the crest direction. Compare the three options here and
+              I can refine the one you want to keep.
+            </p>
+          </div>
+          <div className="logo-grid">
+            <article className="logo-card">
+              <div className="logo-preview">
+                <ClawCrestMark className="logo-preview-mark" />
+              </div>
+              <h3>Claw Crest</h3>
+              <p className="detail-copy">
+                Most premium and emblematic. Best if you want FreightClaw to feel
+                established, serious, and high-ticket.
+              </p>
+            </article>
+            <article className="logo-card">
+              <div className="logo-preview">
+                <LobsterShieldMark className="logo-preview-mark" />
+              </div>
+              <h3>Lobster Shield</h3>
+              <p className="detail-copy">
+                Most literal lobster direction. Cleaner than the original and still very
+                brand-specific.
+              </p>
+            </article>
+            <article className="logo-card">
+              <div className="logo-preview">
+                <MonogramClawMark className="logo-preview-mark" />
+              </div>
+              <h3>Monogram Claw</h3>
+              <p className="detail-copy">
+                Most software-like and compact. Best if you want a sharper monogram feel.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 

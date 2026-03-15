@@ -245,7 +245,8 @@ h3 {
 .feature-grid,
 .offer-grid,
 .detail-grid,
-.pricing-grid {
+.pricing-grid,
+.logo-grid {
   display: grid;
   gap: 1rem;
 }
@@ -258,7 +259,8 @@ h3 {
 .feature-grid,
 .offer-grid,
 .detail-grid,
-.pricing-grid {
+.pricing-grid,
+.logo-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -270,9 +272,32 @@ h3 {
 .offer-card,
 .detail-panel,
 .price-card,
-.card {
-  background: rgba(255, 251, 245, 0.76);
+.card,
+.logo-card {
+  background: rgba(255, 255, 255, 0.76);
   padding: 1.4rem;
+}
+
+.logo-card {
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+
+.logo-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+  margin-bottom: 1rem;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.95), rgba(28, 28, 28, 0.94));
+  color: white;
+}
+
+.logo-preview-mark {
+  width: 5rem;
+  height: 5rem;
 }
 
 .offer-card.featured,
