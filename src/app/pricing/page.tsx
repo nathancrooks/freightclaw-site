@@ -29,10 +29,10 @@ export default function PricingPage() {
             </p>
             <div className="cta-row">
               <Link href="/book" className="button">
-                Book a Strategy Call
+                Contact Us
               </Link>
               <Link href="/playbook" className="button button-secondary">
-                Start with the Playbook
+                Get the Playbook
               </Link>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function PricingPage() {
                   <th>Playbook</th>
                   <th>Community</th>
                   <th>Accelerator</th>
-                  <th>Deployment</th>
+                  <th>Full Deployment</th>
                 </tr>
               </thead>
               <tbody>

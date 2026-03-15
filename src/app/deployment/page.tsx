@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageShell } from "@/components/page-shell";
 
 export const metadata: Metadata = {
-  title: "Deployment",
+  title: "Full Deployment",
 };
 
 export default function DeploymentPage() {
@@ -10,12 +10,12 @@ export default function DeploymentPage() {
     <PageShell
       eyebrow="Done for you"
       title="We help design and deploy your freight AI system."
-      description="FreightClaw Deployment is a higher-touch three-month engagement for companies that want workflow design, setup guidance, documentation, and handoff support without building the operating system alone."
-      primaryCta={{ href: "/book", label: "Book a Call" }}
-      secondaryCta={{ href: "/pricing", label: "Compare Services" }}
+      description="FreightClaw Full Deployment is a higher-touch three-month engagement for companies that want workflow design, setup guidance, documentation, and handoff support without building the operating system alone."
+      primaryCta={{ href: "/book", label: "Contact Us" }}
+      secondaryCta={{ href: "/book", label: "Contact Us" }}
       aside={
         <>
-          <span className="eyebrow">Book a Call</span>
+          <span className="eyebrow">Contact Us</span>
           <h3>Premium implementation path.</h3>
           <p className="detail-copy">
             Position this as a deployment and handoff service with real workflow design,

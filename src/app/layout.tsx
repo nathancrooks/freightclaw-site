@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
+import { LobsterMark } from "@/components/lobster-mark";
 import "./globals.css";
 
 const headingFont = Space_Grotesk({
@@ -24,12 +25,10 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { href: "/playbook", label: "Playbook" },
-  { href: "/community", label: "Community" },
+  { href: "/playbook", label: "Get the Playbook" },
+  { href: "/community", label: "Join Our Community" },
   { href: "/accelerator", label: "Accelerator" },
-  { href: "/deployment", label: "Deployment" },
-  { href: "/pricing", label: "Pricing" },
-  { href: "/book", label: "Book" },
+  { href: "/deployment", label: "Full Deployment" },
 ];
 
 export default function RootLayout({
@@ -44,10 +43,11 @@ export default function RootLayout({
           <header className="site-header">
             <div className="container header-inner">
               <Link href="/" className="brand-mark" aria-label="FreightClaw home">
-                <span className="brand-glyph">FC</span>
+                <span className="brand-glyph">
+                  <LobsterMark />
+                </span>
                 <span className="brand-copy">
                   <strong>FreightClaw</strong>
-                  <span>AI systems for freight operators</span>
                 </span>
               </Link>
               <nav className="site-nav" aria-label="Primary">
@@ -58,7 +58,7 @@ export default function RootLayout({
                 ))}
               </nav>
               <Link href="/book" className="button button-small">
-                Book a Call
+                Contact Us
               </Link>
             </div>
           </header>

@@ -11,8 +11,8 @@ export default function PlaybookPage() {
       eyebrow="Top of funnel offer"
       title="The Freight AI Implementation Playbook"
       description="A field-tested implementation guide for freight operators who want to automate quoting, tracking, claims, follow-up, and onboarding without hiring a dev team."
-      primaryCta={{ href: "/book", label: "Get the Playbook Setup Ready" }}
-      secondaryCta={{ href: "/pricing", label: "Compare Offers" }}
+      primaryCta={{ href: "/book", label: "Get the Playbook" }}
+      secondaryCta={{ href: "/community", label: "Join Our Community" }}
       aside={
         <>
           <span className="eyebrow">$47</span>

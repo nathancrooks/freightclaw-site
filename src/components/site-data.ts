@@ -67,7 +67,7 @@ export const offers = [
   },
   {
     title: "FreightClaw Accelerator",
-    price: "Book a Call",
+    price: "Contact Us",
     description:
       "A five-month done-with-you program to build and launch your first freight AI workflows with your team.",
     bullets: [
@@ -80,8 +80,8 @@ export const offers = [
     featured: true,
   },
   {
-    title: "FreightClaw Deployment",
-    price: "Book a Call",
+    title: "FreightClaw Full Deployment",
+    price: "Contact Us",
     description:
       "A three-month done-for-you deployment with documentation, setup guides, and lifetime community access.",
     bullets: [
@@ -108,6 +108,6 @@ export const faqs = [
   {
     question: "Is this just training, or will something actually get built?",
     answer:
-      "The Playbook and Community are educational and support-driven. The Accelerator and Deployment offers are built around implementation, documentation, and rollout.",
+      "The Playbook and Community are educational and support-driven. The Accelerator and Full Deployment offers are built around implementation, documentation, and rollout.",
   },
 ];

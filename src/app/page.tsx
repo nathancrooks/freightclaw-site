@@ -21,7 +21,7 @@ export default function Home() {
                 Get the Playbook
               </Link>
               <Link href="/book" className="button button-secondary">
-                Book a Strategy Call
+                Contact Us
               </Link>
             </div>
           </div>

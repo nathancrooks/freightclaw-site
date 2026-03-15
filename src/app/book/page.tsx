@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Book",
+  title: "Contact Us",
 };
 
 export default function BookPage() {
@@ -11,8 +11,8 @@ export default function BookPage() {
       <section className="page-hero">
         <div className="container content-grid">
           <div>
-            <span className="eyebrow">Book a call</span>
-            <h1>Talk through the right FreightClaw offer before you build the wrong thing.</h1>
+            <span className="eyebrow">Contact us</span>
+            <h1>Contact FreightClaw about the right offer before you build the wrong thing.</h1>
             <p className="page-hero-copy">
               This page should qualify operators, route serious buyers into the
               Accelerator or Deployment, and keep low-intent prospects moving into the
@@ -20,10 +20,10 @@ export default function BookPage() {
             </p>
             <div className="cta-row">
               <a href="https://calendly.com/" className="button">
-                Placeholder Booking Link
+                Contact Us
               </a>
               <Link href="/pricing" className="button button-secondary">
-                Review Pricing First
+                Review Offers
               </Link>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function BookPage() {
               <li>Repetitive customer service workload</li>
               <li>Documented ops team or SOPs in progress</li>
               <li>Urgency to improve response speed without extra headcount</li>
-              <li>Budget alignment with Accelerator or Deployment</li>
+              <li>Budget alignment with Accelerator or Full Deployment</li>
             </ul>
           </aside>
         </div>

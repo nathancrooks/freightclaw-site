@@ -11,8 +11,8 @@ export default function CommunityPage() {
       eyebrow="Continuity offer"
       title="FreightClaw Operators Community"
       description="A Skool-based implementation lab for operators who want examples, templates, accountability, and office hours while they put FreightClaw systems in place."
-      primaryCta={{ href: "/book", label: "Join the Community Waitlist" }}
-      secondaryCta={{ href: "/pricing", label: "See Pricing" }}
+      primaryCta={{ href: "/book", label: "Join Our Community" }}
+      secondaryCta={{ href: "/book", label: "Contact Us" }}
       aside={
         <>
           <span className="eyebrow">$97/mo</span>

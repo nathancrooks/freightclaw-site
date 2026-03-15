@@ -11,11 +11,11 @@ export default function AcceleratorPage() {
       eyebrow="Done with you"
       title="Build your freight AI workflows with us in 5 months."
       description="The FreightClaw Accelerator is a guided implementation program for owners who want to launch real AI workflows with their team instead of staying stuck at the strategy layer."
-      primaryCta={{ href: "/book", label: "Book a Call" }}
-      secondaryCta={{ href: "/pricing", label: "Review the Ladder" }}
+      primaryCta={{ href: "/book", label: "Contact Us" }}
+      secondaryCta={{ href: "/book", label: "Contact Us" }}
       aside={
         <>
-          <span className="eyebrow">Book a Call</span>
+          <span className="eyebrow">Contact Us</span>
           <h3>Hands-on implementation support for serious operators.</h3>
           <p className="detail-copy">
             Position this around outcomes: faster quotes, better customer response,
