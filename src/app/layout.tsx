@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
-import { ClawCrestMark } from "@/components/logo-marks";
+import { LobsterShieldMark } from "@/components/logo-marks";
 import "./globals.css";
 
 const headingFont = Space_Grotesk({
@@ -44,7 +44,7 @@ export default function RootLayout({
             <div className="container header-inner">
               <Link href="/" className="brand-mark" aria-label="FreightClaw home">
                 <span className="brand-glyph">
-                  <ClawCrestMark className="lobster-mark" />
+                  <LobsterShieldMark className="lobster-mark" />
                 </span>
                 <span className="brand-copy">
                   <strong>FreightClaw</strong>

@@ -62,41 +62,43 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <span className="eyebrow">Logo directions</span>
-              <h2>Three cleaner marks for FreightClaw.</h2>
+              <h2>The Lobster Shield is the right base mark for FreightClaw.</h2>
             </div>
             <p className="section-copy">
-              The header now uses the crest direction. Compare the three options here and
-              I can refine the one you want to keep.
+              The header now uses the Lobster Shield direction. It carries the lobster
+              theme more clearly while still feeling structured enough for a premium
+              freight brand.
             </p>
           </div>
           <div className="logo-grid">
             <article className="logo-card">
               <div className="logo-preview">
-                <ClawCrestMark className="logo-preview-mark" />
+                <LobsterShieldMark className="logo-preview-mark" />
               </div>
-              <h3>Claw Crest</h3>
+              <h3>Primary mark: Lobster Shield</h3>
               <p className="detail-copy">
-                Most premium and emblematic. Best if you want FreightClaw to feel
-                established, serious, and high-ticket.
+                This is the strongest balance between recognizable lobster imagery and a
+                disciplined operator-first brand system.
               </p>
             </article>
             <article className="logo-card">
               <div className="logo-preview">
-                <LobsterShieldMark className="logo-preview-mark" />
+                <ClawCrestMark className="logo-preview-mark" />
               </div>
-              <h3>Lobster Shield</h3>
+              <h3>Alternate: Claw Crest</h3>
               <p className="detail-copy">
-                Most literal lobster direction. Cleaner than the original and still very
-                brand-specific.
+                Keep this as a secondary exploration if you want a more emblematic,
+                high-ticket mark later.
               </p>
             </article>
             <article className="logo-card">
               <div className="logo-preview">
                 <MonogramClawMark className="logo-preview-mark" />
               </div>
-              <h3>Monogram Claw</h3>
+              <h3>Alternate: Monogram Claw</h3>
               <p className="detail-copy">
-                Most software-like and compact. Best if you want a sharper monogram feel.
+                Keep this only if you later want a more software-like or app-specific
+                icon family.
               </p>
             </article>
           </div>
