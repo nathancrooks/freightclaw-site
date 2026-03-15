@@ -119,6 +119,97 @@ export function LobsterShieldMark({ className }: LogoProps) {
   );
 }
 
+export function LobsterShieldMinimalMark({ className }: LogoProps) {
+  return (
+    <svg
+      aria-hidden="true"
+      className={className}
+      viewBox="0 0 64 64"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32 7L50 14.5V30.5C50 41 42.8 50.3 32 56C21.2 50.3 14 41 14 30.5V14.5L32 7Z"
+        fill="currentColor"
+      />
+      <path
+        d="M24.6 18.8C20.8 17.6 18.2 15.2 17.2 11.6C21.4 11.8 24.8 13.1 27.2 16"
+        stroke="white"
+        strokeWidth="2.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M39.4 18.8C43.2 17.6 45.8 15.2 46.8 11.6C42.6 11.8 39.2 13.1 36.8 16"
+        stroke="white"
+        strokeWidth="2.6"
+        strokeLinecap="round"
+      />
+      <path
+        d="M27.4 20.5C27.4 17.9 29.5 15.8 32 15.8C34.5 15.8 36.6 17.9 36.6 20.5V27C36.6 29.6 34.5 31.7 32 31.7C29.5 31.7 27.4 29.6 27.4 27V20.5Z"
+        fill="white"
+      />
+      <path
+        d="M24.8 36.3C24.8 33.7 28 31.8 32 31.8C36 31.8 39.2 33.7 39.2 36.3C39.2 40.3 36 43.5 32 43.5C28 43.5 24.8 40.3 24.8 36.3Z"
+        fill="white"
+      />
+      <path d="M28.6 43.4V51.6" stroke="white" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M35.4 43.4V51.6" stroke="white" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M24.8 43.9L21 50.2" stroke="white" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M39.2 43.9L43 50.2" stroke="white" strokeWidth="2.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function LobsterShieldRuggedMark({ className }: LogoProps) {
+  return (
+    <svg
+      aria-hidden="true"
+      className={className}
+      viewBox="0 0 64 64"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32 5L53 14V32C53 44 44.6 53.1 32 59C19.4 53.1 11 44 11 32V14L32 5Z"
+        fill="currentColor"
+      />
+      <path
+        d="M32 9L48.5 15.8V31.2C48.5 40.7 42.1 49 32 54.1C21.9 49 15.5 40.7 15.5 31.2V15.8L32 9Z"
+        fill="black"
+        fillOpacity="0.2"
+      />
+      <path
+        d="M23.2 20.4C16.9 19.1 13.1 15.8 12.1 10.1C18 10.1 22.7 12 26.1 16.1"
+        stroke="white"
+        strokeWidth="3.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M40.8 20.4C47.1 19.1 50.9 15.8 51.9 10.1C46 10.1 41.3 12 37.9 16.1"
+        stroke="white"
+        strokeWidth="3.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M25.7 20.4C25.7 16.6 28.5 13.8 32 13.8C35.5 13.8 38.3 16.6 38.3 20.4V28.3C38.3 32.1 35.5 34.9 32 34.9C28.5 34.9 25.7 32.1 25.7 28.3V20.4Z"
+        fill="white"
+      />
+      <path
+        d="M22 37.4C22 34 26.4 31.4 32 31.4C37.6 31.4 42 34 42 37.4C42 42.5 37.9 46.6 32 46.6C26.1 46.6 22 42.5 22 37.4Z"
+        fill="white"
+      />
+      <path d="M27.1 46V55.2" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
+      <path d="M36.9 46V55.2" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
+      <path d="M21.8 46.1L17 53.8" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
+      <path d="M42.2 46.1L47 53.8" stroke="white" strokeWidth="3.6" strokeLinecap="round" />
+      <path d="M28.7 22.8H35.3" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+      <path d="M28.5 39.3H35.5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function MonogramClawMark({ className }: LogoProps) {
   return (
     <svg

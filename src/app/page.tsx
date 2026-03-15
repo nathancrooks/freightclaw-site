@@ -2,6 +2,8 @@ import Link from "next/link";
 import {
   ClawCrestMark,
   LobsterShieldMark,
+  LobsterShieldMinimalMark,
+  LobsterShieldRuggedMark,
   MonogramClawMark,
 } from "@/components/logo-marks";
 import { faqs, offers, primaryAudience, useCases } from "@/components/site-data";
@@ -73,12 +75,32 @@ export default function Home() {
           <div className="logo-grid">
             <article className="logo-card">
               <div className="logo-preview">
+                <LobsterShieldMinimalMark className="logo-preview-mark" />
+              </div>
+              <h3>Minimal-Premium</h3>
+              <p className="detail-copy">
+                Cleaner, lighter, and more upscale. Best if you want FreightClaw to feel
+                more premium and less aggressive.
+              </p>
+            </article>
+            <article className="logo-card">
+              <div className="logo-preview">
                 <LobsterShieldMark className="logo-preview-mark" />
               </div>
-              <h3>Primary mark: Lobster Shield</h3>
+              <h3>Current Shield</h3>
               <p className="detail-copy">
-                This is the strongest balance between recognizable lobster imagery and a
-                disciplined operator-first brand system.
+                This is the current balance point between recognizable lobster imagery
+                and a disciplined operator-first brand system.
+              </p>
+            </article>
+            <article className="logo-card">
+              <div className="logo-preview">
+                <LobsterShieldRuggedMark className="logo-preview-mark" />
+              </div>
+              <h3>Rugged-Heavy-Duty</h3>
+              <p className="detail-copy">
+                Thicker lines, harder geometry, and more freight-equipment energy. Best
+                if you want the mark to feel tougher and more industrial.
               </p>
             </article>
             <article className="logo-card">
