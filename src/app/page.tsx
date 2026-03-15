@@ -64,12 +64,12 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <span className="eyebrow">Logo directions</span>
-              <h2>The Lobster Shield is the right base mark for FreightClaw.</h2>
+              <h2>The Rugged-Heavy-Duty Lobster Shield is the right mark for FreightClaw.</h2>
             </div>
             <p className="section-copy">
-              The header now uses the Lobster Shield direction. It carries the lobster
-              theme more clearly while still feeling structured enough for a premium
-              freight brand.
+              The header now uses the rugged shield direction. It feels tougher, more
+              industrial, and more aligned with a freight operator brand than the softer
+              alternatives.
             </p>
           </div>
           <div className="logo-grid">
@@ -85,22 +85,22 @@ export default function Home() {
             </article>
             <article className="logo-card">
               <div className="logo-preview">
-                <LobsterShieldMark className="logo-preview-mark" />
+                <LobsterShieldRuggedMark className="logo-preview-mark" />
               </div>
-              <h3>Current Shield</h3>
+              <h3>Primary mark: Rugged-Heavy-Duty</h3>
               <p className="detail-copy">
-                This is the current balance point between recognizable lobster imagery
-                and a disciplined operator-first brand system.
+                This is now the active FreightClaw mark. It has the strongest industrial
+                feel and the clearest connection to a harder-working freight brand.
               </p>
             </article>
             <article className="logo-card">
               <div className="logo-preview">
-                <LobsterShieldRuggedMark className="logo-preview-mark" />
+                <LobsterShieldMark className="logo-preview-mark" />
               </div>
-              <h3>Rugged-Heavy-Duty</h3>
+              <h3>Alternate: Current Shield</h3>
               <p className="detail-copy">
-                Thicker lines, harder geometry, and more freight-equipment energy. Best
-                if you want the mark to feel tougher and more industrial.
+                Keep this as a fallback if you later want a slightly cleaner version of
+                the shield without losing the lobster identity.
               </p>
             </article>
             <article className="logo-card">
